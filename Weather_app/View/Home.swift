@@ -102,10 +102,9 @@ struct Home: View {
                 // MARK: - ScrollView 1
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
-                        DarkCard(selectedCity: $selectedCity, imageName: "cloud.heavyrain", title: "Chances of Rain")
-                        DarkCard(selectedCity: $selectedCity, imageName: "wind", title: "Lowest wind")
-                        DarkCard(selectedCity: $selectedCity, imageName: "wind", title: "Highest wind")
-                        
+                        DarkCard(selectedCity: selectedCity, imageName: "cloud.heavyrain", title: "Chances of Rain")
+                        DarkCard(selectedCity: selectedCity, imageName: "wind", title: "Lowest wind")
+                        DarkCard(selectedCity: selectedCity, imageName: "wind", title: "Highest wind")
                     }
                 }
                 .padding([.horizontal, .bottom])

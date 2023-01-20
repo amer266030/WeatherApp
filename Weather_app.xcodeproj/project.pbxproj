@@ -20,8 +20,6 @@
 		4D1A86882979645F008F1D6A /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A86872979645F008F1D6A /* ForecastCard.swift */; };
 		4D3A5A312979FCA400BC1C29 /* DropDownBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A5A302979FCA400BC1C29 /* DropDownBtn.swift */; };
 		4D3A5A33297A030F00BC1C29 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A5A32297A030F00BC1C29 /* Forecast.swift */; };
-		4DF4E331297AC47300AD37FC /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4E330297AC47300AD37FC /* test.swift */; };
-		4DF4E333297AC8DB00AD37FC /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4E332297AC8DB00AD37FC /* test2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +37,6 @@
 		4D1A86872979645F008F1D6A /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 		4D3A5A302979FCA400BC1C29 /* DropDownBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownBtn.swift; sourceTree = "<group>"; };
 		4D3A5A32297A030F00BC1C29 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
-		4DF4E330297AC47300AD37FC /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		4DF4E332297AC8DB00AD37FC /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +94,6 @@
 			children = (
 				4D1A8684297953F1008F1D6A /* SubViews */,
 				4D184DC1297936F900C9A64F /* Home.swift */,
-				4DF4E330297AC47300AD37FC /* test.swift */,
-				4DF4E332297AC8DB00AD37FC /* test2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,11 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D184DAE2979369100C9A64F /* ContentView.swift in Sources */,
-				4DF4E331297AC47300AD37FC /* test.swift in Sources */,
 				4D1A868629795407008F1D6A /* DarkCard.swift in Sources */,
 				4D184DBE297936C100C9A64F /* Color_ext.swift in Sources */,
 				4D3A5A312979FCA400BC1C29 /* DropDownBtn.swift in Sources */,
-				4DF4E333297AC8DB00AD37FC /* test2.swift in Sources */,
 				4D184DC429793BED00C9A64F /* View_ext.swift in Sources */,
 				4D184DC2297936F900C9A64F /* Home.swift in Sources */,
 				4D184DAC2979369100C9A64F /* Weather_appApp.swift in Sources */,

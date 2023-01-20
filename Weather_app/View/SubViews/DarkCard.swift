@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DarkCard: View {
     
-    @Binding var selectedCity: CityWeather
+    var selectedCity: CityWeather
     var imageName: String
     var title: String
     
